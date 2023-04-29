@@ -1,6 +1,6 @@
-
-match x := "foo":
-    case "cq_editor":
-        print("ok")
-    case _:
-        print(x)
+def foo(bar):
+    match x := bar:
+        case "something":
+            print("it's something")
+        case _:
+            print(x)
