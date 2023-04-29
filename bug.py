@@ -1,5 +1,5 @@
 def foo(bar):
-    match x := bar.__module__.split(".")[0]:
+    match x := bar:
         case "cq_editor":
             print("ok")
         case _:
