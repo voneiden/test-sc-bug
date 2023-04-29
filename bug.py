@@ -1,6 +1,10 @@
 def foo(bar):
     match x := bar:
-        case "something":
-            print("it's something")
+        case "and":
+            print("now")
+        case "for":
+            print("something")
+        case "completely":
+            print("different")
         case _:
             print(x)
