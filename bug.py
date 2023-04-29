@@ -1,5 +1,5 @@
 def foo(bar):
-    match x := bar:
+    match x := "foo":
         case "cq_editor":
             print("ok")
         case _:
