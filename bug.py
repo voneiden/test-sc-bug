@@ -1,3 +1,5 @@
 match x := 'zomg':
     case _:
-        print(f"x is {x}")
+        print(
+            f"x is {x}"
+        )
